@@ -22,7 +22,11 @@
 .grid-main {
     grid-area: main;
 }
-  
+
+
+
+
+
 .grid-footer {
     grid-area: footer;
     background-color: black;
@@ -33,7 +37,8 @@
     font-family: "Dancing Script", cursive;
     font-size: 42px;
     color: rgb(255, 247, 247);
-    text-align: center;
+    text-align: right;
+
     
     border: solid 5px black;
     border-radius: 4px;
@@ -47,15 +52,22 @@
     justify-content: space-evenly;
     background-color: black;
     padding: 5px;
+    margin-top: 10px;
     margin-top: 6px;
+    justify-content: left;
 }
 .nav-item {
     list-style: none;
+    display: flex;
+    justify-content: flex-start ;
+    
 }
 .link-nav {
+    
     font-family: "Playfair Display", serif;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 20px;
+    margin-left: 30px;
     color: white;
 }
 /* finaliza navegacion principal */
@@ -91,6 +103,7 @@
     justify-content: center;
     gap: 50px;
     margin: 30px auto;
+    text-align: left;
 }
 .img1 {
     width: 270px;
@@ -132,6 +145,22 @@ form{
     padding: 10px 20px;
 }
 
+/*inicia remera personalizada*/
+
+.archivo { 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.h1archivo { 
+    text-align: center;
+    color:rgb(8, 80, 6);
+    font-size: 24px;}
+ #archivo-input { 
+     text-align: center;
+     justify-content: center;
+     }   
+
 
 @media screen and (max-width: 700px){
 #grilla {
@@ -142,5 +171,4 @@ form{
     gap: 50px;
     margin: 30px auto;
 }
-} 
-
+}
